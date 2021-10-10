@@ -4,7 +4,7 @@ import san
 from bson.objectid import ObjectId
 
 client = MongoClient('mongodb://localhost:27017/')
-db1 = client.geeksforgeeks
+db1 = client.bit
 data = {}
 
 with open("IndexCoins.idx") as openfileobject:
