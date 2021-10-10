@@ -1,8 +1,8 @@
 # Assign2
 
-nstallation
+Installation
 
-  pip install pycoingecko
+  python -m pip install pymongo
 Usage
 
   from pycoingecko import CoinGeckoAPI
@@ -11,4 +11,5 @@ Usage
 
   coing= coin.get_coins_markets(vs_currency='eur')
 Examples
+   
 
